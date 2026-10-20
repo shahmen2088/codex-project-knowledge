@@ -1,0 +1,13 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "codex-project-knowledge",
+  "version": "1.0.0",
+  "description": "History audit, decision capture, handoff, and repository curation workflows.",
+  "license": "MIT",
+  "author": { "name": "Codex Skills Maintainer" },
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/project-handoff/SKILL.md"
+    }
+  }
+}

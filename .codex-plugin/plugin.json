@@ -1,0 +1,13 @@
+{
+  "name": "codex-project-knowledge",
+  "version": "1.0.0",
+  "description": "History audit, decision capture, handoff, and repository curation workflows.",
+  "author": { "name": "Codex Skills Maintainer" },
+  "license": "MIT",
+  "skills": "./skills/",
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/project-handoff/SKILL.md"
+    }
+  }
+}
